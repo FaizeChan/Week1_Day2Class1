@@ -133,46 +133,46 @@ namespace Week2_day2Class1
             //}
             //Console.WriteLine("The best super Hero is " + bestHero);
 
-            Console.WriteLine("What is your favorite CDMRW animal?");
-            Console.WriteLine("If you don't know what CDMRW stands for, type in (help)");
+            //Console.WriteLine("What is your favorite CDMRW animal?");
+            //Console.WriteLine("If you don't know what CDMRW stands for, type in (help)");
 
-            string favAnimal = Console.ReadLine().ToLower();
+            //string favAnimal = Console.ReadLine().ToLower();
 
-            string snack;
+            //string snack;
 
-            if (favAnimal == "help")
-            {
-                Console.WriteLine("Cat\tDog\tMonkey\tReindeer\tWhale");
-                Console.WriteLine("Please enter your favorite CDMRW animal.");
-                favAnimal = Console.ReadLine().ToLower();
-            }
+            //if (favAnimal == "help")
+            //{
+            //    Console.WriteLine("Cat\tDog\tMonkey\tReindeer\tWhale");
+            //    Console.WriteLine("Please enter your favorite CDMRW animal.");
+            //    favAnimal = Console.ReadLine().ToLower();
+            //}
 
-            switch (favAnimal)
-            {
+            //switch (favAnimal)
+            //{
 
-                case "cat":
-                    snack = "tuna";
-                    break;
-                case "dog":
-                    snack = "bacon";
-                    break;
-                case "monkey":
-                    snack = "banana";
-                    break;
-                case "reindeer":
-                    snack = "carrot";
-                    break;
-                case "Whale":
-                    snack = "twinkies";
-                    break;
-                default:
-                    snack = "go hungry";
-                    break;
+            //    case "cat":
+            //        snack = "tuna";
+            //        break;
+            //    case "dog":
+            //        snack = "bacon";
+            //        break;
+            //    case "monkey":
+            //        snack = "banana";
+            //        break;
+            //    case "reindeer":
+            //        snack = "carrot";
+            //        break;
+            //    case "Whale":
+            //        snack = "twinkies";
+            //        break;
+            //    default:
+            //        snack = "go hungry";
+            //        break;
 
-            }
+            //}
 
 
-            Console.WriteLine("Enjoy your healthy snack." + snack);
+            //Console.WriteLine("Enjoy your healthy snack." + snack);
 
 
 
